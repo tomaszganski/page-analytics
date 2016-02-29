@@ -13,12 +13,12 @@
 
 ## Usage
 
-Send **GET** request to retrive statitstics for all pages
+Send **GET** request to retrieve statistics for all pages.
 
     /page-analytis 
     
 
-Send **GET** request with **path** and **date** params to  retrive statitstics for certain page and date
+Send **GET** request with **path** and **date** params to  retrieve statistics for certain page and date.
 
     page-analytics?path=/extra-time/history-of-volleyball/&date=2016-01-14
     
@@ -61,9 +61,9 @@ Send **GET** request with **path** and **date** params to  retrive statitstics f
 
 ## Configuration
 
-To fetch data from google analytics first you neet to steup google analytics account https://developers.google.com/analytics/devguides/reporting/core/v3/
+To fetch data from google analytics you need to setup google analytics account https://developers.google.com/analytics/devguides/reporting/core/v3/.
 
-After that you need to provide your account settings in **application.conf**
+After that you need to provide your account settings in **application.conf**.
 
 
 ```
@@ -75,8 +75,8 @@ ga.query-filters=  "<query-filters>"
 
 ## Tech
 ### Page Analytics use:
-* Scala
-* Play framework
-* Akka
-* Slick
-* Guice
+* Scala.
+* Play framework.
+* Akka.
+* Slick.
+* Guice.
