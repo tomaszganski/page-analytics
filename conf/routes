@@ -1,0 +1,6 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Page analytics
+GET     /page-analytics       controllers.PageAnalyticsController.listPageAnalytics(path: Option[String], date: Option[String])
